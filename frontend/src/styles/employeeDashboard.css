@@ -1,0 +1,71 @@
+.employee-dashboard {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+}
+
+.notification-banner {
+  background-color: #ffeeba;
+  padding: 10px 20px;
+  border: 1px solid #ffc107;
+  color: #856404;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.chart-bar {
+  display: flex;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.positive {
+  background-color: #28a745;
+}
+
+.neutral {
+  background-color: #6c757d;
+}
+
+.negative {
+  background-color: #dc3545;
+}
+
+.feedback-card {
+  background-color: #fff;
+  border-left: 5px solid #007bff;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.ack-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #218838;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ack-btn:hover {
+  background-color: #1e7e34;
+}
